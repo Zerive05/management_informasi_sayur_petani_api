@@ -2,7 +2,7 @@
 header("Content-Type: application/json");
 include 'koneksi.php';
 
-$base_url = "http://192.168.1.19/api_mispet/uploads/";
+$base_url = "http://192.168.1.13/api_mispet/uploads/";
 
 $id      = $_POST['id'] ?? ''; // ID Artikel yang mau diedit
 $title   = $_POST['title'] ?? '';

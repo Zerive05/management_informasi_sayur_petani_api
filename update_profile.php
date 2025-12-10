@@ -4,7 +4,7 @@ header("Content-Type: application/json");
 include 'koneksi.php';
 
 // IP Laptop Anda (Jangan berubah saat presentasi nanti!)
-$base_url = "http://192.168.1.19/api_mispet/uploads/";
+$base_url = "http://192.168.1.13/api_mispet/uploads/";
 
 $id  = $_POST['id'] ?? '';
 $bio = $_POST['bio'] ?? '';
